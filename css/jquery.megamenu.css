@@ -1,0 +1,70 @@
+/*
+  jQuery MegaMenu Plugin
+  Author: GeekTantra
+  Author URI: http://www.geektantra.com
+*/
+ul.megamenu {
+  list-style: none;
+  display: none;
+}
+
+ul.megamenu li.mm-item { }
+
+ul.megamenu li {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul.megamenu li.clear-fix {
+  float: none;
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+  height: 0px;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+ul.megamenu a.mm-item-link:link, ul.megamenu a.mm-item-link:visited {
+  position: relative;
+  display: inline-block;
+  color: #FFF;
+  padding: 2px 15px;
+  margin: 0 0 0 0;
+  text-decoration: none;
+  z-index: 100;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+*html ul.megamenu a.mm-item-link:link, *html ul.megamenu a.mm-item-link:visited {
+  border-color: pink;
+  filter: chroma(color=pink);
+}
+
+ul.megamenu a.mm-item-link-hover:link, ul.megamenu a.mm-item-link-hover:visited {
+  color: #444;
+  background: #FFF;  
+}
+
+div.mm-item-content {
+  background: #FFF;
+  padding: 0px;
+  position: absolute;
+  border: 1px solid #777;
+  z-index: 99;
+  box-shadow: -3px 3px 3px #666666;
+  opacity: 1;
+}
+
+.mm-content-base {
+  background: #FFF;
+  position: relative;
+  z-index: 101;
+  height: auto;
+}
+.mm-js-shadow {
+  background: #555;
+  position: absolute;
+  z-index: 100;
+}

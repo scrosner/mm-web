@@ -1,0 +1,1 @@
+var UTMZ="__utmz=";var pagecookies = document.cookie;var cookielist = pagecookies.split(";");for(var i=0;i<cookielist.length;i++){var parsedcookies=cookielist[i];while(parsedcookies.charAt(0)==" "){parsedcookies=parsedcookies.substring(1,parsedcookies.length);}if(parsedcookies.indexOf(UTMZ)==0){SEOvalue=parsedcookies.substring(UTMZ.length,parsedcookies.length);}}
