@@ -10,6 +10,8 @@ var isNoServAR;
 var isExpiring;
 var hasAlerts;
 
+// Testing differences
+
 /*Execute this code block once page DOM has fully loaded*/
 j$(document).ready(function(){	
 	j$("div.navElement2 a").each(function (i) {				
