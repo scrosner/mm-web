@@ -339,7 +339,7 @@ input.btn-main {
 .header-logo { width: 350px; float: left; }	
 .header-content { width: 980px; margin: auto; padding: 20px 0; }
 .header-links { float: right; text-align: right; position: relative; height: 80px; min-width: 225px; }
-.logo { border-right: 1px solid #636466; }
+.logo { /*border-right: 1px solid #636466;*/ }
 .tagline { margin-bottom: 24px;	margin-left: 20px; }
 .eye-brow { font-size: 10px; margin-bottom: 10px; }
 .eye-brow input { background-color: #EEE; color: #636466; width: 150px; font-size: 10px; margin-left: 15px; }
